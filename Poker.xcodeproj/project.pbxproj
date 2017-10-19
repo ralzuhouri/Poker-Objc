@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D40514A15E8031E008C8D01 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D40514915E8031E008C8D01 /* Cocoa.framework */; };
+		2D40515415E8031E008C8D01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D40515215E8031E008C8D01 /* InfoPlist.strings */; };
+		2D40515615E8031E008C8D01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D40515515E8031E008C8D01 /* main.m */; };
+		2D40515A15E8031E008C8D01 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2D40515815E8031E008C8D01 /* Credits.rtf */; };
+		2D40515D15E8031E008C8D01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D40515C15E8031E008C8D01 /* AppDelegate.m */; };
+		2D40516015E8031E008C8D01 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D40515E15E8031E008C8D01 /* MainMenu.xib */; };
+		2D40516815E80689008C8D01 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D40516715E80689008C8D01 /* Card.m */; };
+		2D40516B15E80889008C8D01 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D40516A15E80889008C8D01 /* Deck.m */; };
+		2D40516F15E813AF008C8D01 /* cards.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2D40516E15E813AF008C8D01 /* cards.bundle */; };
+		2D40517515E822B9008C8D01 /* NSMutableArray+Swap.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D40517415E822B9008C8D01 /* NSMutableArray+Swap.m */; };
+		2D59A81D15E8DC12003FB372 /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D59A81C15E8DC12003FB372 /* Preferences.m */; };
+		2D59A82015E8DC3D003FB372 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D59A81F15E8DC3D003FB372 /* Preferences.xib */; };
+		2DCE6216162237590079B242 /* logo.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2DCE6215162237590079B242 /* logo.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D40514515E8031E008C8D01 /* Poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D40514915E8031E008C8D01 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2D40514C15E8031E008C8D01 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2D40514D15E8031E008C8D01 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2D40514E15E8031E008C8D01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D40515115E8031E008C8D01 /* Poker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Poker-Info.plist"; sourceTree = "<group>"; };
+		2D40515315E8031E008C8D01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D40515515E8031E008C8D01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D40515715E8031E008C8D01 /* Poker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Poker-Prefix.pch"; sourceTree = "<group>"; };
+		2D40515915E8031E008C8D01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2D40515B15E8031E008C8D01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D40515C15E8031E008C8D01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D40515F15E8031E008C8D01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2D40516615E80689008C8D01 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		2D40516715E80689008C8D01 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		2D40516915E80889008C8D01 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		2D40516A15E80889008C8D01 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		2D40516E15E813AF008C8D01 /* cards.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = cards.bundle; sourceTree = "<group>"; };
+		2D40517315E822B9008C8D01 /* NSMutableArray+Swap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Swap.h"; sourceTree = "<group>"; };
+		2D40517415E822B9008C8D01 /* NSMutableArray+Swap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Swap.m"; sourceTree = "<group>"; };
+		2D59A81B15E8DC12003FB372 /* Preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preferences.h; sourceTree = "<group>"; };
+		2D59A81C15E8DC12003FB372 /* Preferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preferences.m; sourceTree = "<group>"; };
+		2D59A81F15E8DC3D003FB372 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		2DCE6215162237590079B242 /* logo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = logo.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D40514215E8031E008C8D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D40514A15E8031E008C8D01 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D40513A15E8031E008C8D01 = {
+			isa = PBXGroup;
+			children = (
+				2D40514F15E8031E008C8D01 /* Poker */,
+				2D40514815E8031E008C8D01 /* Frameworks */,
+				2D40514615E8031E008C8D01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D40514615E8031E008C8D01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D40514515E8031E008C8D01 /* Poker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D40514815E8031E008C8D01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D40514915E8031E008C8D01 /* Cocoa.framework */,
+				2D40514B15E8031E008C8D01 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D40514B15E8031E008C8D01 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D40514C15E8031E008C8D01 /* AppKit.framework */,
+				2D40514D15E8031E008C8D01 /* CoreData.framework */,
+				2D40514E15E8031E008C8D01 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2D40514F15E8031E008C8D01 /* Poker */ = {
+			isa = PBXGroup;
+			children = (
+				2D40515B15E8031E008C8D01 /* AppDelegate.h */,
+				2D40515C15E8031E008C8D01 /* AppDelegate.m */,
+				2D40516615E80689008C8D01 /* Card.h */,
+				2D40516715E80689008C8D01 /* Card.m */,
+				2D40516915E80889008C8D01 /* Deck.h */,
+				2D40516A15E80889008C8D01 /* Deck.m */,
+				2D59A81B15E8DC12003FB372 /* Preferences.h */,
+				2D59A81C15E8DC12003FB372 /* Preferences.m */,
+				2D40517315E822B9008C8D01 /* NSMutableArray+Swap.h */,
+				2D40517415E822B9008C8D01 /* NSMutableArray+Swap.m */,
+				2D40515E15E8031E008C8D01 /* MainMenu.xib */,
+				2D59A81F15E8DC3D003FB372 /* Preferences.xib */,
+				2D40516E15E813AF008C8D01 /* cards.bundle */,
+				2D40515015E8031E008C8D01 /* Supporting Files */,
+			);
+			path = Poker;
+			sourceTree = "<group>";
+		};
+		2D40515015E8031E008C8D01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D40515115E8031E008C8D01 /* Poker-Info.plist */,
+				2D40515215E8031E008C8D01 /* InfoPlist.strings */,
+				2D40515515E8031E008C8D01 /* main.m */,
+				2D40515715E8031E008C8D01 /* Poker-Prefix.pch */,
+				2D40515815E8031E008C8D01 /* Credits.rtf */,
+				2DCE6215162237590079B242 /* logo.icns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D40514415E8031E008C8D01 /* Poker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D40516315E8031E008C8D01 /* Build configuration list for PBXNativeTarget "Poker" */;
+			buildPhases = (
+				2D40514115E8031E008C8D01 /* Sources */,
+				2D40514215E8031E008C8D01 /* Frameworks */,
+				2D40514315E8031E008C8D01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Poker;
+			productName = Poker;
+			productReference = 2D40514515E8031E008C8D01 /* Poker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D40513C15E8031E008C8D01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Ramy Al Zuhouri";
+			};
+			buildConfigurationList = 2D40513F15E8031E008C8D01 /* Build configuration list for PBXProject "Poker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2D40513A15E8031E008C8D01;
+			productRefGroup = 2D40514615E8031E008C8D01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D40514415E8031E008C8D01 /* Poker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D40514315E8031E008C8D01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D40515415E8031E008C8D01 /* InfoPlist.strings in Resources */,
+				2D40515A15E8031E008C8D01 /* Credits.rtf in Resources */,
+				2D40516015E8031E008C8D01 /* MainMenu.xib in Resources */,
+				2D40516F15E813AF008C8D01 /* cards.bundle in Resources */,
+				2D59A82015E8DC3D003FB372 /* Preferences.xib in Resources */,
+				2DCE6216162237590079B242 /* logo.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D40514115E8031E008C8D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D40515615E8031E008C8D01 /* main.m in Sources */,
+				2D40515D15E8031E008C8D01 /* AppDelegate.m in Sources */,
+				2D40516815E80689008C8D01 /* Card.m in Sources */,
+				2D40516B15E80889008C8D01 /* Deck.m in Sources */,
+				2D40517515E822B9008C8D01 /* NSMutableArray+Swap.m in Sources */,
+				2D59A81D15E8DC12003FB372 /* Preferences.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D40515215E8031E008C8D01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D40515315E8031E008C8D01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2D40515815E8031E008C8D01 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D40515915E8031E008C8D01 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2D40515E15E8031E008C8D01 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D40515F15E8031E008C8D01 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D40516115E8031E008C8D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2D40516215E8031E008C8D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2D40516415E8031E008C8D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Poker/Poker-Prefix.pch";
+				INFOPLIST_FILE = "Poker/Poker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D40516515E8031E008C8D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Poker/Poker-Prefix.pch";
+				INFOPLIST_FILE = "Poker/Poker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D40513F15E8031E008C8D01 /* Build configuration list for PBXProject "Poker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D40516115E8031E008C8D01 /* Debug */,
+				2D40516215E8031E008C8D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D40516315E8031E008C8D01 /* Build configuration list for PBXNativeTarget "Poker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D40516415E8031E008C8D01 /* Debug */,
+				2D40516515E8031E008C8D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D40513C15E8031E008C8D01 /* Project object */;
+}
